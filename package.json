@@ -1,0 +1,21 @@
+{
+  "name": "universal-multiplayer-game-setup",
+  "version": "1.0.0",
+  "description": "A code template which permits you to create Javascript multiplayer games for browsers, for Desktops with Electron and for mobile phones via Apache Cordova",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "desktop": "cd electron && npm start"
+  },
+  "author": "Manu_Dev",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
