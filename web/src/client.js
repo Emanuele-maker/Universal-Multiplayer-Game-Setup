@@ -2,7 +2,7 @@ import * as resources from "./resources.js"
 import input from "./input.js"
 
 // Socket.io - client side handling
-const socket = io("http://localhost:3000")
+const socket = io("https://i49cof.sse.codesandbox.io/")
 let game, uid
 
 socket.on("uid", id => uid = id)
